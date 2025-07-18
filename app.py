@@ -9,7 +9,7 @@ from htmlTemplates import css, bot_template, user_template
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_huggingface import HuggingFaceEmbeddings
 import google.generativeai as genai
-genai.configure(api_key="AIzaSyBr2EQwz30jkBIQaXLfHIbH-kZm6jEkf9E")
+genai.configure(api_key="")
 def get_pdf_text(pdf_docs):
     text = ""
     for pdf in pdf_docs:
